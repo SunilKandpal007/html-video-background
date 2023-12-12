@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK - HTML video tag</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+    <div id="container">
+        <p class="heading">Play Video in background</p>
+        <video id="vid1" autoplay muted loop>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <button type="button" onclick="playMe()" id="playVid">
+            PAUSE VIDEO</button>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
